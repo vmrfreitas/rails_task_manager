@@ -4,6 +4,8 @@ class MainController < ApplicationController
 
   def about
     # render('about')
+    @created_by = 'Milas'
+    @cool_text = params['cool_text']
   end
 
   def test

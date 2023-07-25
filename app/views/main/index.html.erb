@@ -1,5 +1,4 @@
 <h1>Task Manager</h1>
 <p>An app to manage a todo list :)</p>
-
-<% x = 1 + 1 %><br />
-<%= x %><br />
+<%= link_to("Tasks", {controller: "tasks", action: "index", page: 1}) %><br />
+<%= link_to("About", {action: "about", cool_text: "Lets'a go!"}) %>

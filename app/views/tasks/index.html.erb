@@ -1,2 +1,12 @@
-<h1>Tasks#index</h1>
-<p>Find me in app/views/tasks/index.html.erb</p>
+<%= link_to("Back to Homepage", {controller: "main", action: "index"}) %>
+<h1>Task list</h1>
+
+<% if @page == 1 %>
+    <p>Find me in app/views/tasks/index.html.erb</p>
+<% end %>
+
+<ul>
+<% @tasks.each do |task| %>
+    <li><%= task%></li>
+<% end %>
+</ul>
