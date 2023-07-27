@@ -9,7 +9,7 @@ class MainController < ApplicationController
   end
 
   def test
-    # redirect_to("https://www.youtube.com/watch?v=dQw4w9WgXcQ", allow_other_host: true)
+     redirect_to("https://www.youtube.com/watch?v=dQw4w9WgXcQ", allow_other_host: true)
   end
 
   def hello
